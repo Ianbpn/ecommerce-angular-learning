@@ -1,0 +1,7 @@
+<p class="text-base tracking-widest font-bold text-center p-4 font-sans italic ">Cart View </p>
+<div class="text-center" *ngIf="getCart().length>0">
+   <div *ngFor="let book of getCart()">
+    <p class="font-serif">{{book.name}}</p>
+   </div> 
+</div>
+<div class="font-serif text-center" *ngIf="getCart().length==0">No Books in your Cart</div>

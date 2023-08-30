@@ -22,8 +22,26 @@ export class BooksService {
     {
         name:'Windows 11 For Dummies',
         author:'Andy Rathbone',
-        image:'https://d1b14unh5d6w7g.cloudfront.net/1119846471.01.S001.JUMBOXXX.jpg?Expires=1692740774&Signature=VMDlhonwnND9D9fq5wpjC4xbnysFTxHuYm7QgAzCQCex16esemieQ5DB~EfLLK1qpFLA2pAxW2UT~n9nLHCizUoyFxZDpQWno~ImRchBU4rYWx5ZzWBqO~iwrnu-QHVXnb8y4TBGzBmHvr~4wjuEpGGGZ5Y2irj0BTdjhROvvpg_&Key-Pair-Id=APKAIUO27P366FGALUMQ',
+        image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
         amount:900
+    },
+    {
+      name:'Windows 11 For Dummies',
+      author:'Andy Rathbone',
+      image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
+      amount:900
+    },
+    {
+      name:'Windows 11 For Dummies',
+      author:'Andy Rathbone',
+      image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
+      amount:900
+    },
+    {
+      name:'Windows 11 For Dummies',
+      author:'Andy Rathbone',
+      image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
+      amount:900
     }
   ];
   }

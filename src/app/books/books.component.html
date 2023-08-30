@@ -1,7 +1,8 @@
-<p>Programming Books List!</p>
+<p class="text-3xl tracking-widest font-bold text-center pt-8 font-sans italic leading-10">Books Store!
+</p>
 
-<ul *ngIf="isShowing">
-    <ng-container *ngFor="let singleBook of books; let i=index">
-        <app-book (bookEmitter)="addToCard($event)" [book]="singleBook"></app-book>
+<ul class="flex-1 justify-evenly p-16 gap-16" *ngIf="isShowing">
+    <ng-container  *ngFor="let singleBook of books; let i=index">
+        <app-book [book]="singleBook" class="basis-5/12 box-border p-2.5 border-gray-500 border-x-2 border-y-2"></app-book>
     </ng-container>
 </ul>
