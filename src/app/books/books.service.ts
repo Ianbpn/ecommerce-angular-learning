@@ -24,24 +24,6 @@ export class BooksService {
         author:'Andy Rathbone',
         image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
         amount:900
-    },
-    {
-      name:'Windows 11 For Dummies',
-      author:'Andy Rathbone',
-      image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
-      amount:900
-    },
-    {
-      name:'Windows 11 For Dummies',
-      author:'Andy Rathbone',
-      image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
-      amount:900
-    },
-    {
-      name:'Windows 11 For Dummies',
-      author:'Andy Rathbone',
-      image:'https://media.wiley.com/product_data/coverImage300/71/11198464/1119846471.jpg',
-      amount:900
     }
   ];
   }
